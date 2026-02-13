@@ -1,0 +1,26 @@
+{
+  "Metadata": {
+    "title": "KnowMyself - 了解自己的心理测验",
+    "description": "通过心理测验更深入地了解自己"
+  },
+  "Navigation": {
+    "home": "首页",
+    "quizzes": "测验",
+    "about": "关于"
+  },
+  "HomePage": {
+    "title": "了解自己的旅程",
+    "subtitle": "通过心理测验更深入地了解自己。我们为您准备了性格、价值观、人际关系等多种主题的测验。",
+    "cta": "开始测验"
+  },
+  "QuizCard": {
+    "start": "参加测验"
+  },
+  "Common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "notFound": "页面未找到",
+    "notFoundDescription": "您请求的页面不存在。",
+    "backHome": "返回首页"
+  }
+}

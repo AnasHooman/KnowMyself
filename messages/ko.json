@@ -1,0 +1,26 @@
+{
+  "Metadata": {
+    "title": "KnowMyself - 나를 알아가는 심리 퀴즈",
+    "description": "심리 퀴즈를 통해 나를 더 깊이 이해해보세요"
+  },
+  "Navigation": {
+    "home": "홈",
+    "quizzes": "퀴즈",
+    "about": "소개"
+  },
+  "HomePage": {
+    "title": "나를 알아가는 여정",
+    "subtitle": "심리 퀴즈를 통해 자신을 더 깊이 이해해보세요. 성격, 가치관, 관계 등 다양한 주제의 퀴즈가 준비되어 있습니다.",
+    "cta": "퀴즈 시작하기"
+  },
+  "QuizCard": {
+    "start": "참여하기"
+  },
+  "Common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "요청하신 페이지가 존재하지 않습니다.",
+    "backHome": "홈으로 돌아가기"
+  }
+}

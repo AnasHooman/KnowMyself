@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: oklch(0.97 0.02 280);
+  --color-primary-100: oklch(0.93 0.04 280);
+  --color-primary-200: oklch(0.87 0.08 280);
+  --color-primary-300: oklch(0.78 0.12 280);
+  --color-primary-400: oklch(0.68 0.16 280);
+  --color-primary-500: oklch(0.58 0.2 280);
+  --color-primary-600: oklch(0.5 0.2 280);
+  --color-primary-700: oklch(0.42 0.18 280);
+  --color-primary-800: oklch(0.35 0.15 280);
+  --color-primary-900: oklch(0.28 0.12 280);
+  --color-primary-950: oklch(0.2 0.08 280);
+
+  --font-sans: "Pretendard Variable", Pretendard, "Noto Sans KR",
+    "Noto Sans JP", "Noto Sans SC", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+  font-feature-settings: "kern" 1;
+}

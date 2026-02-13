@@ -1,0 +1,26 @@
+{
+  "Metadata": {
+    "title": "KnowMyself - Psychology Quizzes to Discover Yourself",
+    "description": "Understand yourself more deeply through psychology quizzes"
+  },
+  "Navigation": {
+    "home": "Home",
+    "quizzes": "Quizzes",
+    "about": "About"
+  },
+  "HomePage": {
+    "title": "A Journey to Know Yourself",
+    "subtitle": "Discover yourself more deeply through psychology quizzes. Explore topics like personality, values, relationships, and more.",
+    "cta": "Start a Quiz"
+  },
+  "QuizCard": {
+    "start": "Take Quiz"
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you requested does not exist.",
+    "backHome": "Back to Home"
+  }
+}
