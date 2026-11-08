@@ -6,7 +6,7 @@ import { routing } from "@/i18n/routing";
 
 const localeLabels: Record<string, string> = {
   ko: "한국어",
-  en: "EN",
+  en: "English",
   ja: "日本語",
   zh: "中文",
 };
@@ -16,25 +16,18 @@ export function LocaleSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
 
-  function onChange(nextLocale: string) {
-    router.replace(pathname, { locale: nextLocale });
-  }
-
   return (
-    <div className="flex gap-1">
+    <select
+      aria-label="Language"
+      value={locale}
+      onChange={(e) => router.replace(pathname, { locale: e.target.value })}
+      className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-sm text-gray-700 outline-none transition-colors hover:border-gray-300 focus-visible:ring-2 focus-visible:ring-primary-400"
+    >
       {routing.locales.map((l) => (
-        <button
-          key={l}
-          onClick={() => onChange(l)}
-          className={`rounded px-2 py-1 text-sm transition-colors ${
-            l === locale
-              ? "bg-primary-600 text-white"
-              : "text-gray-600 hover:bg-gray-100"
-          }`}
-        >
+        <option key={l} value={l}>
           {localeLabels[l]}
-        </button>
+        </option>
       ))}
-    </div>
+    </select>
   );
 }

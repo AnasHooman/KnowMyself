@@ -3,19 +3,52 @@
     "title": "KnowMyself - 나를 알아가는 심리 퀴즈",
     "description": "심리 퀴즈를 통해 나를 더 깊이 이해해보세요"
   },
-  "Navigation": {
-    "home": "홈",
-    "quizzes": "퀴즈",
-    "about": "소개"
-  },
+  "Navigation": { "home": "홈", "quizzes": "퀴즈", "about": "소개" },
   "HomePage": {
+    "badge": "2분이면 충분한 자기 발견",
     "title": "나를 알아가는 여정",
-    "subtitle": "심리 퀴즈를 통해 자신을 더 깊이 이해해보세요. 성격, 가치관, 관계 등 다양한 주제의 퀴즈가 준비되어 있습니다.",
-    "cta": "퀴즈 시작하기"
+    "subtitle": "심리 퀴즈를 통해 자신을 더 깊이 이해해보세요. 에너지, 관계, 가치관 등 다양한 주제의 퀴즈가 준비되어 있습니다.",
+    "cta": "퀴즈 시작하기",
+    "secondary": "전체 퀴즈 보기",
+    "popular": "인기 퀴즈",
+    "howTitle": "이렇게 진행돼요",
+    "step1Title": "퀴즈 고르기",
+    "step1Desc": "궁금한 주제의 퀴즈를 선택하세요.",
+    "step2Title": "솔직하게 답하기",
+    "step2Desc": "7개의 질문에 가장 가까운 답을 고르세요.",
+    "step3Title": "결과 공유하기",
+    "step3Desc": "나의 유형을 확인하고 친구와 비교해보세요.",
+    "statQuizzes": "개의 퀴즈",
+    "statTypes": "가지 결과 유형",
+    "statMinutes": "분 소요"
   },
-  "QuizCard": {
-    "start": "참여하기"
+  "QuizList": {
+    "title": "모든 퀴즈",
+    "subtitle": "마음이 가는 퀴즈부터 시작해보세요.",
+    "questions": "{count}문항",
+    "minutes": "약 {count}분"
   },
+  "QuizCard": { "start": "참여하기" },
+  "QuizPlay": {
+    "progress": "{current} / {total}",
+    "back": "이전",
+    "calculating": "결과를 분석하고 있어요..."
+  },
+  "Result": {
+    "yourType": "당신의 유형은",
+    "strengths": "나의 강점",
+    "tips": "이렇게 해보세요",
+    "bestMatch": "잘 맞는 유형",
+    "breakdown": "나의 응답 분포",
+    "share": "결과 공유하기",
+    "copy": "링크 복사",
+    "copied": "복사되었어요!",
+    "retry": "다시 하기",
+    "others": "다른 퀴즈도 해보기",
+    "takeQuiz": "나도 테스트하기",
+    "sharedNote": "친구가 공유한 결과예요. 당신의 유형도 확인해보세요!"
+  },
+  "Footer": { "disclaimer": "이 퀴즈는 재미와 자기 성찰을 위한 것으로, 전문적인 심리 진단을 대신하지 않습니다." },
   "Common": {
     "loading": "로딩 중...",
     "error": "오류가 발생했습니다",

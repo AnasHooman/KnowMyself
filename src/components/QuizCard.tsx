@@ -1,37 +1,38 @@
-import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { type Quiz, tr } from "@/data/quizzes";
 
-interface QuizCardProps {
-  id: string;
-  title: string;
-  description: string;
-  thumbnailUrl: string;
-}
-
-export function QuizCard({ id, title, description, thumbnailUrl }: QuizCardProps) {
+export function QuizCard({ quiz }: { quiz: Quiz }) {
   const t = useTranslations("QuizCard");
+  const tl = useTranslations("QuizList");
+  const locale = useLocale();
 
   return (
     <Link
-      href={`/quizzes/${id}`}
-      className="group block overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-md"
+      href={`/quizzes/${quiz.id}`}
+      className="group flex flex-col overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
     >
-      <div className="relative aspect-[16/9] w-full overflow-hidden">
-        <Image
-          src={thumbnailUrl}
-          alt={title}
-          fill
-          className="object-cover transition-transform duration-300 group-hover:scale-105"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-        />
-      </div>
-      <div className="p-4">
-        <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
-        <p className="mt-1 line-clamp-2 text-sm text-gray-600">{description}</p>
-        <span className="mt-3 inline-block rounded-full bg-primary-600 px-4 py-1.5 text-sm font-medium text-white transition-colors group-hover:bg-primary-700">
-          {t("start")}
+      <div className={`flex aspect-[16/9] items-center justify-center bg-gradient-to-br ${quiz.gradient}`}>
+        <span
+          className="text-6xl drop-shadow-sm transition-transform duration-300 group-hover:scale-110"
+          aria-hidden
+        >
+          {quiz.emoji}
         </span>
+      </div>
+      <div className="flex flex-1 flex-col p-5">
+        <h3 className="text-lg font-bold text-gray-900">{tr(quiz.title, locale)}</h3>
+        <p className="mt-1.5 line-clamp-2 flex-1 text-sm leading-relaxed text-gray-600">
+          {tr(quiz.description, locale)}
+        </p>
+        <div className="mt-4 flex items-center justify-between">
+          <span className="text-xs text-gray-500">
+            {tl("questions", { count: quiz.questions.length })} · {tl("minutes", { count: quiz.minutes })}
+          </span>
+          <span className="rounded-full bg-primary-600 px-4 py-1.5 text-sm font-medium text-white transition-colors group-hover:bg-primary-700">
+            {t("start")}
+          </span>
+        </div>
       </div>
     </Link>
   );

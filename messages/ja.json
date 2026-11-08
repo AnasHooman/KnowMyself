@@ -1,21 +1,54 @@
 {
   "Metadata": {
     "title": "KnowMyself - 自分を知る心理クイズ",
-    "description": "心理クイズを通じて自分をより深く理解しましょう"
+    "description": "心理クイズで自分をもっと深く理解しましょう"
   },
-  "Navigation": {
-    "home": "ホーム",
-    "quizzes": "クイズ",
-    "about": "紹介"
-  },
+  "Navigation": { "home": "ホーム", "quizzes": "クイズ", "about": "概要" },
   "HomePage": {
+    "badge": "2分でできる自己発見",
     "title": "自分を知る旅",
-    "subtitle": "心理クイズを通じて自分をより深く理解しましょう。性格、価値観、人間関係など、さまざまなテーマのクイズをご用意しています。",
-    "cta": "クイズを始める"
+    "subtitle": "エネルギー、人間関係、価値観など、さまざまなテーマの心理クイズで自分をもっと深く理解しましょう。",
+    "cta": "クイズを始める",
+    "secondary": "すべてのクイズを見る",
+    "popular": "人気のクイズ",
+    "howTitle": "遊び方",
+    "step1Title": "クイズを選ぶ",
+    "step1Desc": "気になるテーマを選びましょう。",
+    "step2Title": "正直に答える",
+    "step2Desc": "7つの質問に一番近い答えを選びます。",
+    "step3Title": "結果をシェア",
+    "step3Desc": "自分のタイプを友達と比べてみましょう。",
+    "statQuizzes": "つのクイズ",
+    "statTypes": "種類の結果",
+    "statMinutes": "分で完了"
   },
-  "QuizCard": {
-    "start": "参加する"
+  "QuizList": {
+    "title": "すべてのクイズ",
+    "subtitle": "気になるものから始めてみましょう。",
+    "questions": "{count}問",
+    "minutes": "約{count}分"
   },
+  "QuizCard": { "start": "参加する" },
+  "QuizPlay": {
+    "progress": "{current} / {total}",
+    "back": "戻る",
+    "calculating": "結果を分析しています..."
+  },
+  "Result": {
+    "yourType": "あなたのタイプは",
+    "strengths": "あなたの強み",
+    "tips": "やってみよう",
+    "bestMatch": "相性の良いタイプ",
+    "breakdown": "回答の分布",
+    "share": "結果をシェア",
+    "copy": "リンクをコピー",
+    "copied": "コピーしました！",
+    "retry": "もう一度",
+    "others": "ほかのクイズも試す",
+    "takeQuiz": "自分もやってみる",
+    "sharedNote": "友達がシェアした結果です。あなたのタイプもチェックしましょう！"
+  },
+  "Footer": { "disclaimer": "このクイズは楽しみと自己理解のためのもので、専門的な心理診断の代わりにはなりません。" },
   "Common": {
     "loading": "読み込み中...",
     "error": "エラーが発生しました",

@@ -1,26 +1,59 @@
 {
   "Metadata": {
-    "title": "KnowMyself - Psychology Quizzes to Discover Yourself",
+    "title": "KnowMyself - Psychology Quizzes to Know Yourself",
     "description": "Understand yourself more deeply through psychology quizzes"
   },
-  "Navigation": {
-    "home": "Home",
-    "quizzes": "Quizzes",
-    "about": "About"
-  },
+  "Navigation": { "home": "Home", "quizzes": "Quizzes", "about": "About" },
   "HomePage": {
+    "badge": "Self-discovery in 2 minutes",
     "title": "A Journey to Know Yourself",
-    "subtitle": "Discover yourself more deeply through psychology quizzes. Explore topics like personality, values, relationships, and more.",
-    "cta": "Start a Quiz"
+    "subtitle": "Understand yourself more deeply through psychology quizzes on energy, relationships, values and more.",
+    "cta": "Start a Quiz",
+    "secondary": "Browse all quizzes",
+    "popular": "Popular quizzes",
+    "howTitle": "How it works",
+    "step1Title": "Pick a quiz",
+    "step1Desc": "Choose a topic you're curious about.",
+    "step2Title": "Answer honestly",
+    "step2Desc": "Pick the closest answer to 7 questions.",
+    "step3Title": "Share your result",
+    "step3Desc": "See your type and compare with friends.",
+    "statQuizzes": " quizzes",
+    "statTypes": " result types",
+    "statMinutes": " min each"
   },
-  "QuizCard": {
-    "start": "Take Quiz"
+  "QuizList": {
+    "title": "All quizzes",
+    "subtitle": "Start with whichever one speaks to you.",
+    "questions": "{count} questions",
+    "minutes": "~{count} min"
   },
+  "QuizCard": { "start": "Take quiz" },
+  "QuizPlay": {
+    "progress": "{current} / {total}",
+    "back": "Back",
+    "calculating": "Analyzing your answers..."
+  },
+  "Result": {
+    "yourType": "Your type is",
+    "strengths": "Your strengths",
+    "tips": "Try this",
+    "bestMatch": "Best match",
+    "breakdown": "Your answer breakdown",
+    "share": "Share your result",
+    "copy": "Copy link",
+    "copied": "Copied!",
+    "retry": "Retake",
+    "others": "Try another quiz",
+    "takeQuiz": "Take the quiz",
+    "sharedNote": "A friend shared this result. Find out your own type!"
+  },
+  "Footer": { "disclaimer": "These quizzes are for fun and self-reflection and are not a substitute for professional psychological assessment." },
   "Common": {
     "loading": "Loading...",
-    "error": "An error occurred",
-    "notFound": "Page Not Found",
+    "error": "Something went wrong",
+    "notFound": "Page not found",
     "notFoundDescription": "The page you requested does not exist.",
-    "backHome": "Back to Home"
+    "backHome": "Back to home"
   }
 }

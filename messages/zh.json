@@ -1,26 +1,59 @@
 {
   "Metadata": {
-    "title": "KnowMyself - 了解自己的心理测验",
+    "title": "KnowMyself - 认识自己的心理测验",
     "description": "通过心理测验更深入地了解自己"
   },
-  "Navigation": {
-    "home": "首页",
-    "quizzes": "测验",
-    "about": "关于"
-  },
+  "Navigation": { "home": "首页", "quizzes": "测验", "about": "关于" },
   "HomePage": {
-    "title": "了解自己的旅程",
-    "subtitle": "通过心理测验更深入地了解自己。我们为您准备了性格、价值观、人际关系等多种主题的测验。",
-    "cta": "开始测验"
+    "badge": "两分钟的自我发现",
+    "title": "认识自己的旅程",
+    "subtitle": "通过关于能量、人际关系、价值观等多种主题的心理测验，更深入地了解自己。",
+    "cta": "开始测验",
+    "secondary": "查看全部测验",
+    "popular": "热门测验",
+    "howTitle": "使用方法",
+    "step1Title": "选择测验",
+    "step1Desc": "选择你感兴趣的主题。",
+    "step2Title": "诚实作答",
+    "step2Desc": "为 7 个问题选出最接近的答案。",
+    "step3Title": "分享结果",
+    "step3Desc": "查看你的类型，并与朋友比较。",
+    "statQuizzes": " 个测验",
+    "statTypes": " 种结果类型",
+    "statMinutes": " 分钟完成"
   },
-  "QuizCard": {
-    "start": "参加测验"
+  "QuizList": {
+    "title": "全部测验",
+    "subtitle": "从你最感兴趣的开始吧。",
+    "questions": "{count} 题",
+    "minutes": "约 {count} 分钟"
   },
+  "QuizCard": { "start": "参加" },
+  "QuizPlay": {
+    "progress": "{current} / {total}",
+    "back": "上一题",
+    "calculating": "正在分析你的答案..."
+  },
+  "Result": {
+    "yourType": "你的类型是",
+    "strengths": "你的优势",
+    "tips": "试试这样做",
+    "bestMatch": "最合拍的类型",
+    "breakdown": "答题分布",
+    "share": "分享结果",
+    "copy": "复制链接",
+    "copied": "已复制！",
+    "retry": "再测一次",
+    "others": "试试其他测验",
+    "takeQuiz": "我也来测",
+    "sharedNote": "这是朋友分享的结果。来看看你的类型吧！"
+  },
+  "Footer": { "disclaimer": "本测验仅供娱乐和自我反思，不能替代专业的心理评估。" },
   "Common": {
     "loading": "加载中...",
     "error": "发生错误",
-    "notFound": "页面未找到",
-    "notFoundDescription": "您请求的页面不存在。",
+    "notFound": "找不到页面",
+    "notFoundDescription": "你请求的页面不存在。",
     "backHome": "返回首页"
   }
 }
