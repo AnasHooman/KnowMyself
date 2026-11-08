@@ -21,7 +21,9 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
+      # npm install rather than npm ci: the lockfile is generated on Windows
+      # and lacks the Linux-only optional packages npm ci insists on.
+      - run: npm install --no-audit --no-fund
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /KnowMyself
